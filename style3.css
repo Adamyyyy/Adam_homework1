@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mode {
+  width: 1140px;
+  height: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 65px;
+}
+
+.dark {
+  background: rgba(30, 49, 67, 1);
+}
+
+div,
+input,
+button {
+  font-family: Source Sans Pro;
+  color: rgba(0, 39, 102, 1);
+  background: #f8f7f7;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 78px 58px 52px 58px;
+  
+  width: 452px;
+  height: 494px;
+  
+  
+  box-shadow: 4px 4px 12px rgba(146, 143, 143, 0.25),
+  -4px -4px 12px rgba(255, 255, 255, 0.25);
+  border-radius: 40px;
+}
+
+
+.welcome {
+  width: 200px;
+  height: 56px;
+
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 600;
+
+  align-self: flex-start;
+}
+
+.info {
+  width: 119px;
+  height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+
+  align-self: flex-start;
+}
+
+.password_container {
+  position: relative;
+}
+
+#account,
+#password {
+  width: 336px;
+  height: 60px;
+ 
+
+  box-shadow: inset -4px -4px 12px rgba(255, 255, 255, 0.75),
+    inset 4px 4px 12px rgba(147, 147, 147, 0.25);
+  border-radius: 60px;
+  border: none;
+  padding-left: 24px;
+}
+
+::placeholder {
+  color: rgba(0, 39, 102, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.ri-eye-off-fill {
+  position: absolute;
+  background: rgba(0, 39, 102, 0.5);
+  -webkit-background-clip: text;
+  color: transparent;
+  top: 22px;
+  right: 20px;
+}
+
+.sign {
+  width: 148px;
+  height: 60px;
+
+
+  box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.75),
+    4px 4px 12px rgba(147, 147, 147, 0.25);
+  border-radius: 60px;
+  border: none;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+ 
+  cursor: pointer;
+}
+
+.dark div, 
+.dark input, 
+.dark button {
+  color: rgba(8, 151, 156, 1);
+  background: rgba(30, 49, 67, 1);
+}
+
+.dark #container {
+  box-shadow: 4px 4px 12px rgba(15, 25, 35, 0.47), -4px -4px 12px rgba(34, 64, 92, 0.5);
+}
+
+.dark #account,
+.dark #password {
+box-shadow: inset 4px 4px 12px #152534, inset -4px -4px 12px rgba(147, 147, 147, 0.25);
+}
+
+.dark .sign {
+  box-shadow: -4px -4px 12px rgba(34, 64, 92, 0.5), 4px 4px 12px rgba(15, 25, 35, 0.47);
+}
+
+.dark .ri-eye-off-fill {
+  background: rgba(8, 151, 156, 1);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.dark ::placeholder {
+  color: rgba(8, 151, 156, 1);
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+button {
+  color: white;
+  font-size: 40px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 15px 25px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 20px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.menu a > button:hover {
+  color: yellow;
+  border: 1px solid yellow;
+}

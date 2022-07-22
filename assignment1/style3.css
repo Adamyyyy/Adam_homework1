@@ -7,8 +7,7 @@
 }
 
 .mode {
-  width: 1140px;
-  height: 1024px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +102,6 @@ button {
 .sign {
   width: 148px;
   height: 60px;
-
 
   box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.75),
     4px 4px 12px rgba(147, 147, 147, 0.25);
